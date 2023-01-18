@@ -13,4 +13,7 @@
 //Refactor1.MaximumString(1.1,2.2,3.3);
 
 //using GenericClassMaximum
-Generic<double>.MaximumString(1.2,2.1,3.1);
+//Generic<double>.MaximumString(1.2,2.1,3.1);
+
+//using T maxMethod
+GenericMaximum<string>.MaximumString("Apple", "PineApple", "WaterMelon");
