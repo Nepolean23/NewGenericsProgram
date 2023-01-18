@@ -10,4 +10,7 @@
 //FindMaximumStringNumbers.MaximumString("Apple","Peach","Banana");
 
 //finding of maximum values using Generics
-Refactor1.MaximumString(1.1,2.2,3.3);
+//Refactor1.MaximumString(1.1,2.2,3.3);
+
+//using GenericClassMaximum
+Generic<double>.MaximumString(1.2,2.1,3.1);
