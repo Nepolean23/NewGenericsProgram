@@ -16,4 +16,10 @@
 //Generic<double>.MaximumString(1.2,2.1,3.1);
 
 //using T maxMethod
-GenericMaximum<string>.MaximumString("Apple", "PineApple", "WaterMelon");
+//GenericMaximum<string>.MaximumString("Apple", "PineApple", "WaterMelon");
+
+
+//Printing of MaxValue In array
+int[] arr = { 1, 2, 3, 4, 5, };
+GenericMax<int> generic = new GenericMax<int>(arr);
+generic.PrintMaxValue();

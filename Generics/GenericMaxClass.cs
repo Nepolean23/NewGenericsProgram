@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Generics
 {
-    public class Generic<T> where T:IComparable
+    public class GenericMaxClass<T> where T:IComparable
     {
         public T firstValue,secondValue,thirdValue;
 
-        public Generic(T firstValue, T secondValue, T thirdValue)
+        public GenericMaxClass(T firstValue, T secondValue, T thirdValue)
         {
             this.firstValue = firstValue;
             this.secondValue = secondValue;
